@@ -7,5 +7,5 @@ function togg(){
       d1.style.display = "block";
     }
   };
-  togg1.onclick = togg;
-console.log("coucou");
+  togg1.onclick = togg & console.log("coucou");
+
