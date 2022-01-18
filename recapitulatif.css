@@ -2,6 +2,9 @@
     border: 2px solid #555555;
     border-radius: 2px;
     padding: 15px 32px;
+    visibility: visible;
+    width: 95%;
+    display: inline-block;
 }
 
 button{
@@ -38,6 +41,12 @@ button{
     display: inline-block;
     font-size: 12px;
     border-radius: 2px;
+    float: right;
+}
+
+#blocc{
+    display:inline-block;
+    width: 35%;
 }
 
 #bloccode{
@@ -50,6 +59,31 @@ button{
     font-size: 12px;
     font-family: cursive;
     border-radius: 4px;
+    
+    
 }
+
+#blocres{
+    display: inline-block;
+    float: right;
+    width: 35%;
+}
+
+
+#blocresultat{
+    background-color: #000000e5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: cursive;
+    border-radius: 4px;
+    float: right;
+    display:inline-block;
+    width: 100%;
+}
+
 
 
