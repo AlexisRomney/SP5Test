@@ -1,14 +1,16 @@
-#d1{background-color: #f1f1eeb9;
+#d1,#d2,#d3,#d4,#d5A,#d5B,#d6,#d7,#d8,#d9,#d10{background-color: #f1f1eeb9;
     border: 2px solid #555555;
     border-radius: 2px;
     padding: 15px 32px;
-    visibility: visible;
     width: 95%;
     display: inline-block;
 }
 
+
+
 button{
     background-color: #555555;
+    width: 100%;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -22,6 +24,7 @@ button{
 button:hover {
     padding: 20px 37px;;
     transition: all 0.25s;
+    cursor: pointer;
     }
 
 #code{
