@@ -6,7 +6,7 @@
     display: inline-block;
 }
 
-
+body{background-image: url(images/bg.jpg);}
 
 button{
     background-color: #555555;
