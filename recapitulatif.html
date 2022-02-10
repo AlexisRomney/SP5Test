@@ -5,6 +5,7 @@
   <title>Recap du Cours</title>
   <link rel="stylesheet" href="recapitulatif.css"> 
   <script src="recapitulatif.js"></script>
+  <link rel="icon" href="favicon.ico"/>
 </head>
 <body>
 
@@ -162,7 +163,7 @@
   <button id="togg5">Ajouter une image </button>
 <p>
 <div id="d5A">
-  <p>Depuis internet :</p>
+  <p class="depuis">Depuis internet :</p>
   <div id="blocc">
     <p id="code">Code :</p>
     <br>
@@ -183,7 +184,7 @@
 </div>
 <p>
 <div id="d5B">
-  <p>Depuis le PC :</p>
+  <p class="depuis">Depuis le PC :</p>
   <div id="blocc">
     <p id="code">Code :</p>
     <br>
@@ -293,7 +294,7 @@
   <div id="blocres">
     <p id="resultat">Résultats :</p>
     <div id="blocresultat">
-      <a href="images/KNK.gif" download="KNK.gif">Télécharger mon magnifique gif</a>
+      <a href="images/KNK.gif" download="KNK.gif" target="_blank">Télécharger mon magnifique gif</a>
     </div>
   </div>
 </div>
@@ -331,5 +332,8 @@
   </div>
   </p>
 
+  <div>
+  <button id="retour" onclick="window.location.href = 'index.html';">Revenir à la page principale</button>
+</div>
 </body>
 </html>

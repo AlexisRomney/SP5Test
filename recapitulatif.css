@@ -6,7 +6,7 @@
     display: inline-block;
 }
 
-body{background-image: url(images/bg.jpg);}
+body{background: #c3c4c5;}
 
 button{
     background-color: #555555;
@@ -93,5 +93,12 @@ button:hover {
     width: 100%;
 }
 
+#retour{
+    background-color: #0d0e4d;
+}
 
+p.depuis{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
